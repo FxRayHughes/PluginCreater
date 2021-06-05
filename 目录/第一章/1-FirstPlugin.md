@@ -5,3 +5,10 @@
 https://wiki.ptms.ink/index.php?title=TabooLib
 
 ### Hello Minecraft!
+```kotlin
+object PluginCreater : Plugin() {
+    override fun onLoad() {
+        println("Hello Minecraft")
+    }
+}
+```

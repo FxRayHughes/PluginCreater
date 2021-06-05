@@ -1,4 +1,10 @@
 package ray.mintcat.plugincreater
 
-object PluginCreater {
+import io.izzel.taboolib.loader.Plugin
+
+object PluginCreater : Plugin() {
+
+    override fun onLoad() {
+        println("Hello Minecraft")
+    }
 }
